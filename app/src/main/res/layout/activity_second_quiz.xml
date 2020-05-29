@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gitar"
+    tools:context=".SecondQuiz">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/quiz_2"
+        android:textColor="#DD0D2B"
+        android:textSize="30sp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="372dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/q_2_how_many_main_function_we_can_have_in_our_project"
+        android:textColor="#F7FAF5"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:layout_width="371dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="20dp">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_1"
+            android:textColor="#EAE6E6" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_2"
+            android:textColor="#EFDDDD" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EAE6E6"
+            android:text="@string/nolimit" />
+
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EAE6E6"
+            android:text="@string/depend_on_compiler" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/inputNext"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="160dp"
+        android:background="@drawable/round_bg"
+        android:text="@string/next" />
+
+</RelativeLayout>

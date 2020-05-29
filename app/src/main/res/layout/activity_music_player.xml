@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gitar"
+    tools:context=".musicPlayer">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="411dp"
+        android:layout_height="459dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginBottom="136dp"
+        android:src="@drawable/aana" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="58dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="612dp"
+        android:text="@string/Music_player"
+        android:textSize="40sp"
+        />
+
+    <Button
+        android:id="@+id/inputback"
+        android:layout_width="82dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="687dp"
+        android:background="@drawable/round_bg"
+        android:text="@string/back"
+        />
+
+    <Button
+        android:id="@+id/inputPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="640dp"
+        android:layout_marginBottom="42dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="300dp"
+        android:background="@drawable/round_bg"
+        android:text="@string/play"
+        />
+
+    <Button
+        android:id="@+id/inputPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="641dp"
+        android:layout_marginBottom="42dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/round_bg"
+        android:text="@string/pause"
+         />
+</RelativeLayout>

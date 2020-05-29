@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgapps"
+    tools:context=".Camera">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="50dp"
+        android:height="60dp"
+        android:text="@string/Camera"
+        android:textColor="#8BC34A"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        android:layout_marginTop="160dp"
+        tools:srcCompat="@tools:sample/backgrounds/scenic"
+        />
+
+    <Button
+        android:id="@+id/inputCapture"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:background="@drawable/round_bg"
+        android:layout_marginTop="580dp"
+        android:text="@string/capture" />
+
+    <Button
+        android:id="@+id/backAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_bg"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:text="back" />
+</RelativeLayout>

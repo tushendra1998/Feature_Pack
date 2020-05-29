@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a2d9ff"
+    tools:context=".Messege">
+
+    <EditText
+        android:id="@+id/inputNumber"
+        android:layout_width="350dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25sp"
+        android:hint="@string/enter_your_phone_number"
+        android:background="@drawable/round_border"
+        android:padding="15dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/messege"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/inputMessege"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="25sp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:gravity="top"
+        android:text=""
+        android:hint="Enter Your Messege"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/inputSend"
+        android:layout_width="118dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/round_btn2"
+        android:layout_marginTop="550dp"
+        android:onClick="btn_send"
+        android:text="@string/send" />
+
+    <Button
+        android:id="@+id/backMess"
+        android:layout_width="118dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="140dp"
+        android:background="@drawable/round_btn2"
+        android:text="@string/back" />
+</RelativeLayout>

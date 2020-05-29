@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculator">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="600dp"
+        android:background="@drawable/ic_curve"/>
+
+    <EditText
+        android:id="@+id/inputNumber1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/round_boarder2"
+        android:ems="10"
+        android:inputType="phone"
+        android:padding="10dp"
+        android:hint="@string/enter_your_first_number"/>
+
+    <EditText
+        android:id="@+id/inputNumber2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="50dp"
+        android:hint="@string/enter_your_second_number"
+        android:background="@drawable/round_boarder2"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/viewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/round_boarder2"
+        android:text=""
+        android:hint="@string/result"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="129dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/round_btn2"
+        android:layout_marginTop="450dp"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/subButton"
+        android:layout_width="129dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/round_btn2"
+        android:layout_marginRight="30dp"
+        android:text="@string/subtract" />
+
+    <Button
+        android:id="@+id/mulButton"
+        android:layout_width="129dp"
+        android:layout_height="67dp"
+        android:text="@string/multiply"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/round_btn2"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:id="@+id/divideButton"
+        android:layout_width="129dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/round_btn2"
+        android:layout_marginLeft="250dp"
+        android:text="DIVISION" />
+
+    <Button
+        android:id="@+id/againBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/round_btn2"
+        android:text="back" />
+
+</RelativeLayout>
